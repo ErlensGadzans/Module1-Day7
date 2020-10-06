@@ -1,9 +1,11 @@
-<!-- Starting from D6's exercise, use your Smartphone Shop Website and implement the following exercises-->
-<script>
   /*EXERCISE 1 
      Create a new welcome alert message when the page successfully loads
     */
-  window.onload = function () {};
+  window.onload = function () {
+    alert("Page is loaded");
+  };
+
+
   /* EXERCISE 2
       Write a function to change the Title of the page in something else (execute the function in browser console)
   */
