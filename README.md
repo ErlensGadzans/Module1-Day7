@@ -1,2 +1,2 @@
-# Module1-Day7
+# Module1-Day6
 Strive School homeWork
