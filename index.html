@@ -192,6 +192,25 @@
       ></iframe>
     </p>
 
+    <section id="exercise4">
+      <h2 id="listTitle">Todo List</h2>
+      <ul id="firstList">
+        <li><p>1st</p></li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+      <ul id="secondList">
+        <li>1st</li>
+        <li>2nd</li>
+        <li>3rd</li>
+      </ul>
+
+      <div>
+        <p>This text is just for the exercise</p>
+      </div>
+      <button onclick="changePContent()">Click to change p</button>
+    </section>
+
     <script>
       window.onload = function () {
         alert("Page is loaded");
@@ -207,6 +226,13 @@
         title.classList.add("changecolor");
       };
       addClassToTitle("changecolor");
+
+      const changePContent = function () {
+        let paragraph = document.querySelectorAll("div p");
+        for (let i = 0; i < paragraph.length; i++) {
+          paragraph[i].innerText = "I changed text!";
+        }
+      };
     </script>
   </body>
 
