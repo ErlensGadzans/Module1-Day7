@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <style>
@@ -16,8 +16,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
 </head>
+<script>
+  window.onload = function () {
+      alert("Page is loaded");
+  };
+</script>
+
+
+<script>
+  const changeTitle = function (newTitle) {
+        document.getElementsByTagName("h1")[0].innerText= "Strive School";
+      };
+        console.log(changeTitle(newTitle));
+
+</script>
+
+<script>
+    const addClassToTitle = function (newColor) {
+      document.getElementsByTagName("h2").style.newColor = "red";
+    };
+      console.log(addClassToTitle(newColor));
+
+</script>
+
 <body>
+
   <h1 id ="header__title">John's smartphone shop</h1>
 
   <h2>List of models</h2>
